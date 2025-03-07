@@ -1,0 +1,2 @@
+# Darknegan15-David_Pozo_24_25_PRUEBA_LMSGI_T2_PRACTICO
+Examen segundo trimestre LLMM UNIR
