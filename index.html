@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter-UNIR</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="img/arcade.png" type="image/x-icon">
+</head>
+<body>
+    
+    <h1>To live is to fight, to fight is to live</h1>
+
+    <table>
+        <tr>
+            <td colspan="4" id="cabecera">STREET FIGHTER</td>
+            
+        </tr>
+        <tr>
+            
+            <td id="ken"><div>KEN</div></td>
+            <td id="chun"><div>CHUN LI</div></td>
+            <td id="zangief"><div>ZANGIEF</div></td>
+            <td id="dhalsin"><div>DHALSIN</div></td>
+
+        </tr>
+        <tr>
+            <td id="ryu"><div>RYU</div></td>
+            <td id="honda"><div>E HONDA</div></td>
+            <td id="blanka"><div>BLANKA</div></td>
+            <td id="guille"><div>GUILLE</div></td>
+
+        </tr>
+        <tr>
+            <td id="hawk"><div>T HAWK</div></td>
+            <td id="feilong"><div>FEILONG</div></td>
+            <td id="dee"><div>DEE JAY</div></td>
+            <td id="cammy"><div>CAMMY</div></td>
+        </tr>
+        <tr>
+            <td id="balrog"><div>BALROG</div></td>
+            <td id="vega"><div>VEGA</div></td>
+            <td id="sagat"><div>SAGAT</div></td>
+            <td id="bison"><div>M BISON</div></td>
+        </tr>
+    </table>
+
+    <h2>FORMULARIO DE INSCRIPCIÓN PARA JUGAR A STREET FIGHTER</h2>
+
+    <table class="formulario">
+        <tr id="form">
+            <td>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div class="formu"><label for="nombre">Nombre:</label></div>
+                        <div class="formu"><input type="text" id="nombre" name="nombre"></div>
+    
+                    <div class="formu"></div><label for="apellido">Apellido:</label>
+                    <div class="formu"></div><input type="text" id="apellido" name="apellido"></div>
+
+                    <div class="formu"><label for="direccion">Dirección:</label></div>
+                    <div class="formu2"><input type="text" id="direccion" name="direccion" placeholder="Calle"></div>
+                    <div class="formu2"><input type="text" id="direccion" name="direccion" placeholder="Nº"></div>
+                    <div class="formu2"><input type="text" id="direccion" name="direccion" placeholder="Piso"></div>
+                    <div class="formu2"><input type="text" id="direccion" name="direccion" placeholder="Cod. Postal"></div>
+                    <div class="formu2"><input type="text" id="direccion" name="direccion" placeholder="Ciudad"></div>
+
+                    <div class="formu"></div><label for="direccion">Nick:</label></div>
+                    <div class="formu"></div><input type="text" id="nick" name="nick"></div>
+
+                    <div class="formu"></div><label for="email">Correo Electrónico:</label></div>
+                    <div class="formu"></div><input type="email" id="email" name="email" ></div>
+                </fieldset>
+                <fieldset>
+                    <legend>SEXO USUARIO</legend>
+                    <label for="sexo"></label>
+                    <div class="formu"></div><input type="radio" name="sexo" value="hombre">Hombre</div>
+                    <div class="formu"></div><input type="radio" name="sexo" value="mujer">Mujer</div>
+                    <div class="formu"></div><input type="radio" name="sexo" value="mujer">Prefiero no decir</div>
+                </fieldset>
+                <fieldset>
+                    <label for="fecha nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha nacimiento" name="fecha nacimiento">
+                </fieldset>
+                <fieldset>
+                    <legend>Personajes</legend>
+                    <label for="nombre">Selecciona el personaje:</label>
+                    <input type="text" id="personaje" name="personaje">
+                </fieldset>
+                <fieldset>
+                    <legend>COMENTARIOS</legend>
+                    <textarea  maxlength="999" rows="10" cols="70" ></textarea>
+                    
+                </fieldset>
+                <input type="submit" value="Enviar" id="boton">
+                <input type="reset" value="Borrar" id="boton">
+                
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

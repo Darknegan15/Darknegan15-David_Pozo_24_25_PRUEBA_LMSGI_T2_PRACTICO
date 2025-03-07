@@ -1,0 +1,217 @@
+@font-face {
+    font-family: Street;
+    src: url("../Font/street.otf");
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/fondo2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Street;
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 46px;
+}
+
+H2{
+    text-align: center;
+    color: crimson;
+    font-size: 28px;
+}
+
+table {
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario{
+    height: 1100px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    
+    
+ }
+td{
+    border: 2px solid grey;
+    width: 40px;
+    height: 45px;
+    border-radius: 10px;
+    padding-bottom: 45px;
+    
+}
+
+tr{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;  
+}
+div{
+    
+    padding-bottom: 85px;
+}
+
+#cabecera{
+    
+    background-image: url("../img/fondocabecera.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+    height: 40px;
+    padding-bottom: 0;
+}
+
+#ken{
+    background-image: url("../img/ken.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+#chun {
+    background-image: url("../img/ChunLi.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#zangief {
+    background-image: url("../img/Zangief.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#dhalsin{
+    background-image: url("../img/Dhalsim.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#ryu{
+    background-image: url("../img/Ryu.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#honda{
+    background-image: url("../img/EHonda.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#blanka{
+    background-image: url("../img/Blanka.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#guille{
+    background-image: url("../img/Guille.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#hawk{
+    background-image: url("../img/THawk.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#feilong{
+    background-image: url("../img/Feilong.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#dee{
+    background-image: url("../img/DeeJay.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#cammy{
+    background-image: url("../img/Cammy.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#balrog{
+    background-image: url("../img/Balrog.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#vega{
+    background-image: url("../img/Vega.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#sagat{
+    background-image: url("../img/Sagat.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#bison{
+    background-image: url("../img/MBison.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+legend{
+    font-family: Street;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+ 
+#form {
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    
+}
+
+.formu{
+    
+    margin: auto;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.formu2{
+    display: inline;
+    
+}
+
+#boton{
+    border: 1px solid crimson ;
+    background-color: crimson;
+    font-family: Street;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
